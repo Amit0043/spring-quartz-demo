@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: quartz
+server:
+  port: 8060
+  servlet:
+    context-path: /ams-rnd/quartz-scheduler/v1
+spring-doc:
+  swagger-ui:
+    path: /swagger-ui.html
